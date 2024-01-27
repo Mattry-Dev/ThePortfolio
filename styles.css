@@ -4,17 +4,19 @@ body{
 h1{
     text-align: center;
 }
-.mainText p{
-    width: 60vw;
+p{
+    width: 40vw;
     box-shadow: #707070;
+    margin: 2rem;
 }
 .mainText img{
     width: 20vw;
-    border-radius: 2rem;
+   
 }
 .mainText{
     display: flex;
     margin: auto; 
+    justify-content: center;
 
 }
 
@@ -122,11 +124,14 @@ transition-delay: 0ms;
 }
   
 .carousel-button {
+width: 3vw;
+height: 5vh;
+align-items: center;
 position: absolute;
 z-index: 2;
 background: none;
 border: none;
-font-size: 4rem;
+font-size: 2.5vh;
 top: 50%;
 transform: translateY(-50%);
 color: rgba(255, 255, 255, .5);
@@ -134,7 +139,6 @@ cursor: pointer;
 border-radius: .25rem;
 padding: 0 .5rem;
 background-color: rgba(0, 0, 0, .1);
-box-shadow: 0 9px #999;
 }
   
 .carousel-button:hover{
@@ -165,7 +169,7 @@ button{
     border-radius: 1.25rem;
     color: rgba(255, 255, 255, .5);
     height: 30px;
-    width: 600px;
+    width: 30vw;
 }
 .pimg{
     border-radius: 10px;
