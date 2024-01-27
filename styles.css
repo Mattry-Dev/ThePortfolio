@@ -1,48 +1,54 @@
 body{
     margin: 0px;
 }
-main{
-    margin-left: 20px;
-    margin-right: 20px;
-}
 h1{
     text-align: center;
 }
-p{
-    width: 1000px;
+.mainText p{
+    width: 60vw;
+    box-shadow: #707070;
 }
-.navbar ul{
-    list-style-type: none;
-    background-color: rgb(45, 45, 139);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
+.mainText img{
+    width: 20vw;
+    border-radius: 2rem;
 }
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-.navbar a:hover{
-    background-color: rgb(36, 36, 110);
-}
-.navbar li{
-    float: left;
-}
-li {
-    display: inline;
-}
-
-
-div {
+.mainText{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px;
+    margin: auto; 
+
 }
-  
+
+
+
+.nav-list{
+    background: rgb(45, 45, 139);
+    box-shadow: 0px 0px 10px rgb(119, 119, 119);
+    margin: 0;
+    padding: 1rem 0;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+.nav-item:first-child{
+   margin-right: auto; 
+   margin-left: 2rem;
+}
+.nav-item a:hover{
+    color: white;
+}
+
+
+
+
 button {
     transition: transform 0.7s ease-in-out;
 
@@ -57,7 +63,8 @@ button {
     border: 10px;
 }
 a{
-    width: 400px;
+    width: 23vw;
+    
 }
   #slider-container {
     overflow: hidden;
@@ -71,8 +78,8 @@ display: inline-block;
 
   
 .carousel {
-width: 60vw;
-height: 60vh;
+width: 30vw;
+height: 30vh;
 position: relative;
 margin-left: auto;
 margin-right: auto;
